@@ -1,7 +1,6 @@
 module alu_control(clk, reset, alu_op1, alu_op0, function_code, alu_ctrl);
 
-input clk, reset; 
-input wire alu_op1, alu_op0;
+input wire clk, reset, alu_op1, alu_op0;
 input wire[3:0] function_code;
 output wire[3:0] alu_ctrl; 
 reg [3:0] alu_control= 4'b000;
