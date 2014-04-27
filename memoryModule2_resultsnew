@@ -1,0 +1,14 @@
+Chronologic VCS simulator copyright 1991-2009
+Contains Synopsys proprietary information.
+Compiler version D-2009.12; Runtime version D-2009.12;  Apr 24 16:03 2014
+VCD+ Writer D-2009.12 Copyright 2009 Synopsys Inc.
+                   0	readAddress = 0000, readData = 0120, reset = 0
+                  10	readAddress = 0028, readData = c892, reset = 1
+                  20	readAddress = 0000, readData = 0120, reset = 1
+                  30	readAddress = 0032, readData = efff, reset = 1
+$finish called from file "memoryModule2_fixture.v", line 48.
+$finish at simulation time                  100
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100 ns
+CPU Time:      0.410 seconds;       Data structure size:   0.0Mb
+Thu Apr 24 16:03:03 2014

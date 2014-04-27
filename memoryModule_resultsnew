@@ -1,0 +1,13 @@
+Chronologic VCS simulator copyright 1991-2009
+Contains Synopsys proprietary information.
+Compiler version D-2009.12; Runtime version D-2009.12;  Apr 24 15:31 2014
+VCD+ Writer D-2009.12 Copyright 2009 Synopsys Inc.
+                   0	MemRead = 1, MemWrite = 0, writeAddress = 0000, writeData = 0000, readAddress = 0000, readData = abcd, reset = 0
+                  10	MemRead = 0, MemWrite = 1, writeAddress = 000a, writeData = ffff, readAddress = 0000, readData = xxxx, reset = 1
+                  20	MemRead = 1, MemWrite = 0, writeAddress = 000a, writeData = ffff, readAddress = 000a, readData = ffff, reset = 1
+$finish called from file "memoryModule_fixture.v", line 58.
+$finish at simulation time                  100
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100 ns
+CPU Time:      0.400 seconds;       Data structure size:   0.0Mb
+Thu Apr 24 15:31:48 2014

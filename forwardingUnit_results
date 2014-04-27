@@ -1,0 +1,16 @@
+Chronologic VCS simulator copyright 1991-2009
+Contains Synopsys proprietary information.
+Compiler version D-2009.12; Runtime version D-2009.12;  Apr 19 19:47 2014
+VCD+ Writer D-2009.12 Copyright 2009 Synopsys Inc.
+                   0	EMRegWrite = 1, MWRegWrite = x, EMreadReg1 = 0001, EMreadReg2 = xxxx, IEreadReg1 = 0001, IEreadReg2 = xxxx, MWreadReg1 = xxxx, MWreadReg2 = xxxx, ForwardA = 10, ForwardB = 00
+                  10	EMRegWrite = x, MWRegWrite = 1, EMreadReg1 = xxxx, EMreadReg2 = xxxx, IEreadReg1 = 0010, IEreadReg2 = xxxx, MWreadReg1 = 0010, MWreadReg2 = xxxx, ForwardA = 01, ForwardB = 00
+                  20	EMRegWrite = 0, MWRegWrite = 0, EMreadReg1 = 0000, EMreadReg2 = 0000, IEreadReg1 = 0000, IEreadReg2 = 0000, MWreadReg1 = 0000, MWreadReg2 = 0000, ForwardA = 00, ForwardB = 00
+                  30	EMRegWrite = 1, MWRegWrite = x, EMreadReg1 = 0100, EMreadReg2 = xxxx, IEreadReg1 = xxxx, IEreadReg2 = 0100, MWreadReg1 = xxxx, MWreadReg2 = xxxx, ForwardA = 00, ForwardB = 10
+                  40	EMRegWrite = x, MWRegWrite = 1, EMreadReg1 = xxxx, EMreadReg2 = xxxx, IEreadReg1 = xxxx, IEreadReg2 = 1000, MWreadReg1 = 1000, MWreadReg2 = xxxx, ForwardA = 00, ForwardB = 01
+                  50	EMRegWrite = 0, MWRegWrite = 0, EMreadReg1 = 0000, EMreadReg2 = 0000, IEreadReg1 = 0000, IEreadReg2 = 0000, MWreadReg1 = 0000, MWreadReg2 = 0000, ForwardA = 00, ForwardB = 00
+$finish called from file "forwardingUnit_fixture.v", line 100.
+$finish at simulation time                   60
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 60 ns
+CPU Time:      0.400 seconds;       Data structure size:   0.0Mb
+Sat Apr 19 19:47:35 2014

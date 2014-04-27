@@ -1,0 +1,14 @@
+Chronologic VCS simulator copyright 1991-2009
+Contains Synopsys proprietary information.
+Compiler version D-2009.12; Runtime version D-2009.12;  Apr 23 21:59 2014
+VCD+ Writer D-2009.12 Copyright 2009 Synopsys Inc.
+                   0	RegWrite = 0 readReg1 = 0001, readReg2 = 0010, op1 = 1f00, op2 = 0054, wrData = xxxx reset = 0
+                  10	RegWrite = 1 readReg1 = 0011, readReg2 = 0100, op1 = f70f, op2 = f07f, wrData = 1010 reset = 1
+                  15	RegWrite = 1 readReg1 = 0011, readReg2 = 0100, op1 = 1010, op2 = f07f, wrData = 1010 reset = 1
+                  20	RegWrite = 0 readReg1 = 0011, readReg2 = 0100, op1 = 1010, op2 = f07f, wrData = 1010 reset = 1
+$finish called from file "regFile_fixture.v", line 56.
+$finish at simulation time                   50
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 50 ns
+CPU Time:      0.400 seconds;       Data structure size:   0.0Mb
+Wed Apr 23 21:59:12 2014

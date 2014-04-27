@@ -1,0 +1,18 @@
+Chronologic VCS simulator copyright 1991-2009
+Contains Synopsys proprietary information.
+Compiler version D-2009.12; Runtime version D-2009.12;  Apr 24 16:13 2014
+VCD+ Writer D-2009.12 Copyright 2009 Synopsys Inc.
+                   0	oldPC = a0a0, newPC = xxxx, reset = 0
+                  10	oldPC = ffff, newPC = xxxx, reset = 1
+                  15	oldPC = ffff, newPC = ffff, reset = 1
+                  20	oldPC = a0a0, newPC = ffff, reset = 1
+                  25	oldPC = a0a0, newPC = a0a0, reset = 1
+                  30	oldPC = a0a0, newPC = a0a0, reset = 0
+                  40	oldPC = bbbb, newPC = a0a0, reset = 1
+                  45	oldPC = bbbb, newPC = bbbb, reset = 1
+$finish called from file "PC_fixture.v", line 52.
+$finish at simulation time                  100
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100
+CPU Time:      0.410 seconds;       Data structure size:   0.0Mb
+Thu Apr 24 16:13:19 2014

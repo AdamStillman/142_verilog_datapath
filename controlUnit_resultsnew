@@ -1,0 +1,18 @@
+Chronologic VCS simulator copyright 1991-2009
+Contains Synopsys proprietary information.
+Compiler version D-2009.12; Runtime version D-2009.12;  Apr 24 16:37 2014
+VCD+ Writer D-2009.12 Copyright 2009 Synopsys Inc.
+                   0	RegDst = 1 ALUOp1 = 1, ALUOp0 = 0, ALUSrc = 0, Branch = 0 MemRead = 0, MemWrite = 0, Jump = 0, RegWrite = 1 MemtoReg = 0, FPC = 0
+                  10	RegDst = 1 ALUOp1 = 1, ALUOp0 = 0, ALUSrc = 0, Branch = 0 MemRead = 0, MemWrite = 0, Jump = 0, RegWrite = 1 MemtoReg = 0, FPC = 1
+                  20	RegDst = 0 ALUOp1 = 0, ALUOp0 = 0, ALUSrc = 1, Branch = 0 MemRead = 1, MemWrite = 0, Jump = 0, RegWrite = 0 MemtoReg = 1, FPC = 0
+                  30	RegDst = x ALUOp1 = 0, ALUOp0 = 0, ALUSrc = 1, Branch = 0 MemRead = 0, MemWrite = 1, Jump = 0, RegWrite = 0 MemtoReg = x, FPC = 0
+                  40	RegDst = x ALUOp1 = 0, ALUOp0 = 1, ALUSrc = 0, Branch = 1 MemRead = 0, MemWrite = 0, Jump = 0, RegWrite = 0 MemtoReg = x, FPC = 0
+                  50	RegDst = 0 ALUOp1 = 0, ALUOp0 = 0, ALUSrc = 0, Branch = 0 MemRead = 0, MemWrite = 0, Jump = 0, RegWrite = 0 MemtoReg = 0, FPC = 0
+                  60	RegDst = x ALUOp1 = 0, ALUOp0 = 0, ALUSrc = 0, Branch = 0 MemRead = 0, MemWrite = 0, Jump = 1, RegWrite = 0 MemtoReg = x, FPC = 0
+                  70	RegDst = 0 ALUOp1 = 0, ALUOp0 = 0, ALUSrc = 0, Branch = 0 MemRead = 0, MemWrite = 0, Jump = 0, RegWrite = 0 MemtoReg = 0, FPC = 0
+$finish called from file "controlUnit_fixture.v", line 68.
+$finish at simulation time                   80
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 80
+CPU Time:      0.420 seconds;       Data structure size:   0.0Mb
+Thu Apr 24 16:37:50 2014

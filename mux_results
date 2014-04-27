@@ -1,0 +1,12 @@
+Chronologic VCS simulator copyright 1991-2009
+Contains Synopsys proprietary information.
+Compiler version D-2009.12; Runtime version D-2009.12;  Apr 19 17:55 2014
+VCD+ Writer D-2009.12 Copyright 2009 Synopsys Inc.
+                   0	sel = 0, out = 0000000000000000, in0 = 0000000000000000, in1 = 1111111111111110
+                  10	sel = 1, out = 1111111111111110, in0 = 0000000000000001, in1 = 1111111111111110
+$finish called from file "mux_fixture.v", line 38.
+$finish at simulation time                   20
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 20
+CPU Time:      0.400 seconds;       Data structure size:   0.0Mb
+Sat Apr 19 17:55:48 2014
