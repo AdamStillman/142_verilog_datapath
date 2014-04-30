@@ -22,4 +22,9 @@ pc pc(.clk(clk), .reset(reset), .newPc(pc_out), .oldPC(pc_mux_out));
 //instruction memory
 instruction_memory instruction_memory(.readData(instruction_memory_out), .readAddress(pc_out), .clk(clk), .reset(reset));
 
+
+
+//next adress adder
+//next_address_adder next_address_adder(.a(), .b(), .result());
+
 endmodule

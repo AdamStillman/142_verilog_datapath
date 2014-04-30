@@ -4,19 +4,16 @@ module instruction_memory(readData, readAddress, clk, reset);
 //INSTRUCTION MEMORY
 
 //I/O ports
-output [15:0] readData;
+output wire  [15:0] readData;
 //Controls for memory read or write
+
 input clk, reset;
-input [15:0]readAddress;
+input wire [15:0]readAddress;
 
 //output defined as register
-reg [15:0] readData;
 reg [15:0] Memory[0:29]; //30 Memory locations each 16 bits long
 
-always @(*) //read, combinational
-begin
-		readData = Memory[(readAddress/2)];
-end
+
 always @(posedge clk or negedge reset) //write, sequential
 begin
 	if (!reset)
@@ -58,5 +55,5 @@ begin
 		Memory[29] <= 16'h0000;
 	end
 end
-
+assign readData = Memory[(readAddress/2)];
 endmodule

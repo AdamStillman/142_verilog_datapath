@@ -7,7 +7,7 @@ module instruction_memory(readData, readAddress, clk, reset);
 output wire  [15:0] readData;
 //Controls for memory read or write
 
-input clk, reset;
+input wire clk, reset;
 input wire [15:0]readAddress;
 
 //output defined as register
