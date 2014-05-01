@@ -1,7 +1,7 @@
 module hazard(IDRegRs,IDRegRt,EXRegRt,EXMemRead,PCWrite,IFIDWrite,HazMuxCon); 
  input wire [3:0] IDRegRs,IDRegRt,EXRegRt; 
  input wire EXMemRead; 
- reg r_PCWrite, r_IFIDWrite, r_HazMuxCon; 
+ reg PCWrite, IFIDWrite, HazMuxCon; 
  output wire  PCWrite, IFIDWrite, HazMuxCon;
 
  always@(IDRegRs,IDRegRt,EXRegRt,EXMemRead) 
@@ -9,22 +9,21 @@ module hazard(IDRegRs,IDRegRt,EXRegRt,EXMemRead,PCWrite,IFIDWrite,HazMuxCon);
 //changed this to &=>&& and | =>||
  if(EXMemRead==1'b1&&((EXRegRt == IDRegRs)||(EXRegRt == IDRegRt))) 
  begin//stall 
- r_PCWrite = 0; 
- r_IFIDWrite = 0; 
- r_HazMuxCon = 1; 
+ PCWrite = 0; 
+ IFIDWrite = 0; 
+ HazMuxCon = 1; 
  end 
  else 
  begin//no stall 
- r_PCWrite = 1; 
- r_IFIDWrite = 1; 
- r_HazMuxCon = 0;  
+ PCWrite = 1; 
+ IFIDWrite = 1; 
+ HazMuxCon = 0; 
+ 
  end 
-
  end
-
- assign  PCWrite = r_PCWrite;
- assign IFIDWrite = r_IFIDWrite;
- assign HazMuxCon = r_HazMuxCon;
+ assign  PCWrite = PCWrite;
+ assign IFIDWrite = IFIDWrite;
+ assign HazMuxCon = HazMuxCon;
 endmodule 
 
 
