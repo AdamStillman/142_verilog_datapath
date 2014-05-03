@@ -12,7 +12,7 @@ reg [15:0] instReg, PC_Plus2Reg;
 
 always @(posedge clk or negedge reset) 
 begin
-	if (!reset || flush)
+	if (!reset | flush)
 	begin
 		instReg <= 0;
 		PC_Plus2Reg <= 0;
