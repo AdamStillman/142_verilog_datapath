@@ -21,7 +21,7 @@ begin
 		//input address / 2
 		Memory[0] <= 16'h0120;
 		Memory[1] <= 16'h0121;
-		Memory[2] <= 16'h09E2;
+		Memory[2] <= 16'h0AE2;
 		Memory[3] <= 16'h0EF2;
 		Memory[4] <= 16'h0564;
 		Memory[5] <= 16'h0155;
